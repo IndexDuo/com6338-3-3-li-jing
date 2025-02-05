@@ -26,10 +26,8 @@ var questionsArr = [
 ];
 
 function runQuiz() {
-    // alert(questionArr.length);
     var score = 0;
     for (let i = 0; i < questionsArr.length; i++) {
-        // let userAnswer = window.confirm(questionArr[i].question);
         if (
             window.confirm(questionsArr[i].question) == questionsArr[i].answer
         ) {
